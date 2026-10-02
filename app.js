@@ -22,7 +22,7 @@ async function init(){
   ensurePlan();
   renderAll();
   setInterval(()=>renderCurrentWord(), 60*1000);
-  if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+  if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js?v=3");
 }
 
 function ensurePlan(){
