@@ -32,3 +32,5 @@ Uygulamayı açtığınızda mevcut 30 dakikalık slot otomatik hesaplanır ve d
 ## Kelime verisi
 words.json şu an test için 100 kelimelik örnek paket içerir.
 Mimari 2000+ kelimeyi destekler; aynı şemada words.json büyütülebilir.
+
+- 3 aşamalı öğrenme kartı: kelime + İngilizce örnek → görsel → Türkçe anlam

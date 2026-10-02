@@ -44,14 +44,20 @@
           <span class="pill" id="wordLevel">B1</span><span class="tiny" id="slotInfo">30 dk döngü</span>
         </div>
         <div class="word" id="wordEn">journey</div>
-        <div class="meaning" id="wordTr">yolculuk</div>
-        <img id="wordImage" class="heroimg" alt="Kelime görseli"/>
-        <p class="example" id="exEn"></p>
-        <p class="example tr" id="exTr"></p>
+        <div id="stageArea">
+          <p class="example" id="exEn"></p>
+          <img id="wordImage" class="heroimg hidden" alt="Kelime görseli"/>
+          <div id="turkishBlock" class="hidden">
+            <div class="meaning" id="wordTr">yolculuk</div>
+            <p class="example tr" id="exTr"></p>
+          </div>
+        </div>
         <div class="row">
           <button class="btn" onclick="speakCurrent()">🔊 Dinle</button>
-          <button class="btn primary" onclick="nextCard()">Sonraki</button>
+          <button class="btn primary" id="revealBtn" onclick="advanceReveal()">Görseli göster</button>
+          <button class="btn" onclick="nextCard()">Sonraki kelime</button>
         </div>
+        <div class="tiny" id="stageHint">Aşama 1/3 • Önce tahmin et</div>
       </div>
       <div class="grid">
         <div class="card"><div class="stat" id="newCount">0</div><div class="sub">Bugün yeni</div></div>
