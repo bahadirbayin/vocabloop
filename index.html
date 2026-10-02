@@ -39,25 +39,45 @@
       <div class="card" id="sundayBanner" style="display:none">
         <b>Bugün pazar.</b><div class="sub">Yeni kelime yok; haftalık tekrar ve quiz günü.</div>
       </div>
-      <div class="card">
-        <div class="row" style="justify-content:space-between;align-items:center">
-          <span class="pill" id="wordLevel">B1</span><span class="tiny" id="slotInfo">30 dk döngü</span>
-        </div>
-        <div class="word" id="wordEn">journey</div>
-        <div id="stageArea">
+      <div id="learningDeck">
+        <div class="card learning-card" id="card1">
+          <div class="row" style="justify-content:space-between;align-items:center">
+            <span class="pill" id="wordLevel">B1</span><span class="tiny">Kart 1/3</span>
+          </div>
+          <div class="word" id="wordEn">journey</div>
           <p class="example" id="exEn"></p>
-          <img id="wordImage" class="heroimg hidden" alt="Kelime görseli"/>
-          <div id="turkishBlock" class="hidden">
-            <div class="meaning" id="wordTr">yolculuk</div>
-            <p class="example tr" id="exTr"></p>
+          <div class="row">
+            <button class="btn" onclick="speakCurrent()">🔊 Dinle</button>
+            <button class="btn primary" onclick="showLearningCard(2)">Sonraki →</button>
           </div>
         </div>
-        <div class="row">
-          <button class="btn" onclick="speakCurrent()">🔊 Dinle</button>
-          <button class="btn primary" id="revealBtn" onclick="advanceReveal()">Görseli göster</button>
-          <button class="btn" onclick="nextCard()">Sonraki kelime</button>
+
+        <div class="card learning-card hidden" id="card2">
+          <div class="row" style="justify-content:space-between;align-items:center">
+            <b>Görsel ipucu</b><span class="tiny">Kart 2/3</span>
+          </div>
+          <div id="imageWrap">
+            <img id="wordImage" class="heroimg" alt="Kelime görseli"/>
+            <div id="imageFallback" class="hidden" style="height:190px;border-radius:18px;background:#172033;display:flex;align-items:center;justify-content:center;font-size:64px;margin-top:14px">🧠</div>
+          </div>
+          <p class="sub center">Kelimeyi Türkçeye çevirmeden önce görselle ilişkilendir.</p>
+          <div class="row">
+            <button class="btn" onclick="showLearningCard(1)">← Geri</button>
+            <button class="btn primary" onclick="showLearningCard(3)">Sonraki →</button>
+          </div>
         </div>
-        <div class="tiny" id="stageHint">Aşama 1/3 • Önce tahmin et</div>
+
+        <div class="card learning-card hidden" id="card3">
+          <div class="row" style="justify-content:space-between;align-items:center">
+            <b>Cevap</b><span class="tiny">Kart 3/3</span>
+          </div>
+          <div class="meaning" id="wordTr">yolculuk</div>
+          <p class="example tr" id="exTr"></p>
+          <div class="row">
+            <button class="btn" onclick="showLearningCard(2)">← Geri</button>
+            <button class="btn primary" onclick="nextCard()">Sonraki kelime →</button>
+          </div>
+        </div>
       </div>
       <div class="grid">
         <div class="card"><div class="stat" id="newCount">0</div><div class="sub">Bugün yeni</div></div>
@@ -141,6 +161,6 @@
     <button id="navStats" onclick="showView('stats')">İlerleme</button>
   </nav>
 </div>
-<script src="app.js?v=3"></script>
+<script src="app.js"></script>
 </body>
 </html>

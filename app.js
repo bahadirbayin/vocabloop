@@ -4,8 +4,8 @@ let state = JSON.parse(localStorage.getItem("vocabloop_state") || "null") || {
   level:"B1", progress:{}, plan:null, quizHistory:[], settings:{quizHour:"21:00"}
 };
 let currentQuiz = null;
-let revealStage = 1;
 let manualOffset = 0;
+let learningCard = 1;
 
 const save = () => localStorage.setItem("vocabloop_state", JSON.stringify(state));
 const dayKey = (d=new Date()) => d.toISOString().slice(0,10);
@@ -22,7 +22,7 @@ async function init(){
   ensurePlan();
   renderAll();
   setInterval(()=>renderCurrentWord(), 60*1000);
-  if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js?v=3");
+  if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
 }
 
 function ensurePlan(){
@@ -72,49 +72,49 @@ function renderCurrentWord(forceOffset=0){
   document.getElementById("wordTr").textContent=w.tr;
   document.getElementById("exEn").textContent=ex.en;
   document.getElementById("exTr").textContent=ex.tr;
+
   const img=document.getElementById("wordImage");
-  img.src=w.image;
-  img.onerror=()=>{img.classList.add("hidden")};
-  img.onload=()=>{ if(revealStage>=2) img.classList.remove("hidden"); };
-  document.getElementById("slotInfo").textContent="≈ 30 dk döngü";
-  applyRevealStage();
-}
-
-
-function applyRevealStage(){
-  const img=document.getElementById("wordImage");
-  const tr=document.getElementById("turkishBlock");
-  const btn=document.getElementById("revealBtn");
-  const hint=document.getElementById("stageHint");
-
-  if(revealStage<=1){
-    if(img) img.classList.add("hidden");
-    if(tr) tr.classList.add("hidden");
-    if(btn) btn.textContent="Görseli göster";
-    if(hint) hint.textContent="Aşama 1/3 • Kelime + İngilizce örnek";
-  }else if(revealStage===2){
-    if(img) img.classList.remove("hidden");
-    if(tr) tr.classList.add("hidden");
-    if(btn) btn.textContent="Türkçeyi göster";
-    if(hint) hint.textContent="Aşama 2/3 • Görseli incele";
-  }else{
-    if(img) img.classList.remove("hidden");
-    if(tr) tr.classList.remove("hidden");
-    if(btn) btn.textContent="Baştan göster";
-    if(hint) hint.textContent="Aşama 3/3 • Türkçe açıklama açıldı";
+  const fallback=document.getElementById("imageFallback");
+  if(img && fallback){
+    fallback.classList.add("hidden");
+    img.style.display="block";
+    img.src=w.image + "?lock=" + encodeURIComponent(w.en);
+    img.onerror=()=>{
+      img.style.display="none";
+      fallback.classList.remove("hidden");
+      fallback.textContent=emojiForWord(w.en);
+    };
   }
+
+  learningCard=1;
+  showLearningCard(1);
 }
 
-function advanceReveal(){
-  revealStage++;
-  if(revealStage>3) revealStage=1;
-  applyRevealStage();
+
+
+function showLearningCard(n){
+  learningCard=n;
+  [1,2,3].forEach(i=>{
+    const el=document.getElementById("card"+i);
+    if(el) el.classList.toggle("hidden", i!==n);
+  });
 }
 
 function nextCard(){
   manualOffset++;
-  revealStage=1;
   renderCurrentWord(manualOffset);
+}
+
+function emojiForWord(word){
+  const map={
+    journey:"🚆", travel:"✈️", holiday:"🏖️", ticket:"🎫", airport:"✈️", restaurant:"🍽️",
+    weather:"🌦️", water:"💧", food:"🍎", house:"🏠", family:"👨‍👩‍👧", friend:"🤝", school:"🏫",
+    book:"📚", work:"💼", happy:"😊", sad:"😢", morning:"🌅", night:"🌙", tomorrow:"📅",
+    improve:"📈", achieve:"🏆", experience:"🧭", increase:"⬆️", reduce:"⬇️", environment:"🌍",
+    opportunity:"🚪", solution:"💡", reliable:"🛡️", challenge:"🧗", benefit:"🎁", evidence:"🔎",
+    comprehensive:"🧩", coherent:"🔗", ambiguous:"❓", enhance:"✨", implement:"🛠️"
+  };
+  return map[word]||"🖼️";
 }
 
 function speakCurrent(){
@@ -130,7 +130,6 @@ function renderAll(){
   document.getElementById("sundayBanner").style.display=isSunday()?"block":"none";
   document.getElementById("newCount").textContent=state.plan?.newIds?.length||0;
   document.getElementById("reviewCount").textContent=state.plan?.reviewIds?.length||0;
-  revealStage=1;
   renderCurrentWord();
   renderStats();
   renderQuizDue();
