@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="theme-color" content="#0f172a"/>
+  <link rel="manifest" href="manifest.webmanifest"/>
+  <link rel="apple-touch-icon" href="icon-192.png"/>
+  <title>VocabLoop</title>
+  <style>
+    :root{--bg:#0b1220;--card:#131c2f;--muted:#93a4bd;--txt:#f8fafc;--accent:#5da9ff;--ok:#4ade80;--bad:#fb7185;--line:#25314a}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#08111f,#101827);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{max-width:720px;margin:auto;padding:calc(env(safe-area-inset-top) + 18px) 16px calc(env(safe-area-inset-bottom) + 36px)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+    h1{font-size:30px;margin:0} .sub{color:var(--muted);font-size:14px}
+    .pill{display:inline-flex;padding:7px 10px;border-radius:999px;background:#1c2a44;color:#cde3ff;font-weight:700;font-size:12px}
+    .card{background:rgba(19,28,47,.96);border:1px solid var(--line);border-radius:24px;padding:18px;margin:14px 0;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+    .word{font-size:38px;font-weight:800;margin:4px 0}.meaning{font-size:22px;color:#cbd5e1}.example{font-size:16px;line-height:1.45}.example.tr{color:var(--muted)}
+    .heroimg{width:100%;height:190px;object-fit:cover;border-radius:18px;background:#172033;margin-top:14px}
+    .row{display:flex;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:16px;padding:13px 16px;font-weight:700;background:#21314d;color:white}
+    .btn.primary{background:var(--accent);color:#061120}.btn.ok{background:var(--ok);color:#06280f}.btn.bad{background:var(--bad);color:#3b0711}
+    select,input{width:100%;background:#0f172a;color:white;border:1px solid #31405f;border-radius:14px;padding:12px;font-size:16px}
+    nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;position:sticky;bottom:10px;background:rgba(8,17,31,.88);backdrop-filter:blur(16px);padding:8px;border-radius:18px;border:1px solid #26344f}
+    nav button{background:none;border:0;color:#aab7cc;padding:10px 4px;font-size:12px}nav button.active{color:white;background:#18233a;border-radius:13px}
+    .hidden{display:none!important}.stat{font-size:28px;font-weight:800}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .choice{width:100%;text-align:left;margin:7px 0}.progressbar{height:9px;background:#1d2940;border-radius:999px;overflow:hidden}.progressbar>div{height:100%;background:var(--accent)}
+    .tiny{font-size:12px;color:var(--muted)} .center{text-align:center}.sectiontitle{margin:8px 0 6px;font-size:18px}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>VocabLoop</h1><div class="sub" id="todayLine"></div></div>
+    <span class="pill" id="levelBadge">B1</span>
+  </header>
+
+  <main>
+    <section id="homeView">
+      <div class="card" id="sundayBanner" style="display:none">
+        <b>Bugün pazar.</b><div class="sub">Yeni kelime yok; haftalık tekrar ve quiz günü.</div>
+      </div>
+      <div class="card">
+        <div class="row" style="justify-content:space-between;align-items:center">
+          <span class="pill" id="wordLevel">B1</span><span class="tiny" id="slotInfo">30 dk döngü</span>
+        </div>
+        <div class="word" id="wordEn">journey</div>
+        <div class="meaning" id="wordTr">yolculuk</div>
+        <img id="wordImage" class="heroimg" alt="Kelime görseli"/>
+        <p class="example" id="exEn"></p>
+        <p class="example tr" id="exTr"></p>
+        <div class="row">
+          <button class="btn" onclick="speakCurrent()">🔊 Dinle</button>
+          <button class="btn primary" onclick="nextCard()">Sonraki</button>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="stat" id="newCount">0</div><div class="sub">Bugün yeni</div></div>
+        <div class="card"><div class="stat" id="reviewCount">0</div><div class="sub">Bugün tekrar</div></div>
+      </div>
+      <div class="card">
+        <b>Akşam mini quiz</b>
+        <p class="sub" id="quizDueText">Bugünün kelimelerinden kısa bir test.</p>
+        <button class="btn primary" onclick="startQuiz('daily')">Günlük quizi başlat</button>
+      </div>
+    </section>
+
+    <section id="quizView" class="hidden">
+      <div class="card">
+        <div class="row" style="justify-content:space-between"><b id="quizTitle">Günlük Quiz</b><span id="quizCounter" class="tiny"></span></div>
+        <div class="progressbar"><div id="quizBar"></div></div>
+        <div class="word" id="quizWord"></div>
+        <div class="sub">Doğru Türkçe anlamı seç</div>
+        <div id="choices"></div>
+      </div>
+    </section>
+
+    <section id="levelView" class="hidden">
+      <div class="card">
+        <h2 class="sectiontitle">Seviyeni seç</h2>
+        <select id="levelSelect">
+          <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option>
+        </select>
+        <p class="sub">Seviyeyi değiştirince yeni günlük plan o seviyeye göre hazırlanır.</p>
+        <button class="btn primary" onclick="saveLevel()">Kaydet</button>
+      </div>
+      <div class="card">
+        <h2 class="sectiontitle">Öğrenme sistemi</h2>
+        <p>• Günde en fazla 10 yeni kelime</p>
+        <p>• Aynı kelime gün içinde tekrar tekrar, farklı örneklerle</p>
+        <p>• Pazar günü yeni kelime yok</p>
+        <p>• Yanlış kelimeler öğrenene kadar tekrar havuzunda</p>
+      </div>
+    </section>
+
+    <section id="statsView" class="hidden">
+      <div class="grid">
+        <div class="card"><div class="stat" id="learnedStat">0</div><div class="sub">Öğrenildi</div></div>
+        <div class="card"><div class="stat" id="learningStat">0</div><div class="sub">Tekrar havuzu</div></div>
+      </div>
+      <div class="card">
+        <h2 class="sectiontitle">Haftalık tekrar</h2>
+        <p class="sub">Bu hafta gördüğün ve zorlandığın kelimelerden oluşturulur.</p>
+        <button class="btn primary" onclick="startQuiz('weekly')">Haftalık quizi başlat</button>
+      </div>
+      <div class="card">
+        <h2 class="sectiontitle">Son quizler</h2>
+        <div id="history"></div>
+      </div>
+    </section>
+
+    <section id="settingsView" class="hidden">
+      <div class="card">
+        <h2 class="sectiontitle">Kurulum</h2>
+        <p class="sub">iPhone’da Safari → Paylaş → <b>Ana Ekrana Ekle</b>. Böylece uygulama gibi açılır ve çevrimdışı da çalışır.</p>
+      </div>
+      <div class="card">
+        <h2 class="sectiontitle">Hatırlatma</h2>
+        <p class="sub">Web uygulaması iOS’ta native uygulama gibi kesin saatli yerel bildirim planlayamaz. Uygulamayı açtığında günün quiz durumunu otomatik kontrol eder.</p>
+        <label class="tiny">Günlük quiz saati</label>
+        <input id="quizHour" type="time" value="21:00"/>
+        <button class="btn primary" style="margin-top:10px" onclick="saveSettings()">Kaydet</button>
+      </div>
+      <div class="card">
+        <h2 class="sectiontitle">Veri</h2>
+        <p class="sub">İlerleme bu cihazdaki Safari/PWA depolamasında tutulur.</p>
+        <button class="btn bad" onclick="resetAll()">Tüm ilerlemeyi sıfırla</button>
+      </div>
+    </section>
+  </main>
+
+  <nav>
+    <button id="navHome" class="active" onclick="showView('home')">Bugün</button>
+    <button id="navQuiz" onclick="showView('quiz')">Quiz</button>
+    <button id="navLevel" onclick="showView('level')">Seviye</button>
+    <button id="navStats" onclick="showView('stats')">İlerleme</button>
+  </nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

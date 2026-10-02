@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "5a61e7e4-e180-4d2f-89a7-eccf496008e7",
+    "en": "hello",
+    "tr": "merhaba",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “hello”.",
+        "tr": "Bugün “hello” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “hello” in a sentence?",
+        "tr": "“hello” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?hello"
+  },
+  {
+    "id": "ca2447a8-67de-4175-a617-b47b4a48a79f",
+    "en": "goodbye",
+    "tr": "hoşça kal",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “goodbye”.",
+        "tr": "Bugün “goodbye” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “goodbye” in a sentence?",
+        "tr": "“goodbye” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?goodbye"
+  },
+  {
+    "id": "ed87585f-9a3e-4a2c-a735-f22e0b40a8f8",
+    "en": "please",
+    "tr": "lütfen",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “please”.",
+        "tr": "Bugün “please” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “please” in a sentence?",
+        "tr": "“please” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?please"
+  },
+  {
+    "id": "8eb154af-4ab3-49be-8053-b8748346fefa",
+    "en": "thanks",
+    "tr": "teşekkürler",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “thanks”.",
+        "tr": "Bugün “thanks” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “thanks” in a sentence?",
+        "tr": "“thanks” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?thanks"
+  },
+  {
+    "id": "f760121e-803d-4a44-ada3-4357061ca982",
+    "en": "water",
+    "tr": "su",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “water”.",
+        "tr": "Bugün “water” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “water” in a sentence?",
+        "tr": "“water” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?water"
+  },
+  {
+    "id": "77da970d-b25c-4784-84a2-f1bb2094f2a1",
+    "en": "food",
+    "tr": "yemek",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “food”.",
+        "tr": "Bugün “food” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “food” in a sentence?",
+        "tr": "“food” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?food"
+  },
+  {
+    "id": "27d0e090-a5de-45b7-a65f-64039ac38cb8",
+    "en": "house",
+    "tr": "ev",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “house”.",
+        "tr": "Bugün “house” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “house” in a sentence?",
+        "tr": "“house” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?house"
+  },
+  {
+    "id": "460ae6c8-b7ff-4d7d-8e37-60f3c98e7386",
+    "en": "family",
+    "tr": "aile",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “family”.",
+        "tr": "Bugün “family” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “family” in a sentence?",
+        "tr": "“family” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?family"
+  },
+  {
+    "id": "181a3b6f-bdb3-4c2c-966e-8d30b0e41fa5",
+    "en": "friend",
+    "tr": "arkadaş",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “friend”.",
+        "tr": "Bugün “friend” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “friend” in a sentence?",
+        "tr": "“friend” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?friend"
+  },
+  {
+    "id": "55672ab6-441d-4ac6-8c7f-5c80eac39bb4",
+    "en": "school",
+    "tr": "okul",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “school”.",
+        "tr": "Bugün “school” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “school” in a sentence?",
+        "tr": "“school” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?school"
+  },
+  {
+    "id": "14ab6bc8-7be4-41de-859c-983c601bb431",
+    "en": "book",
+    "tr": "kitap",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “book”.",
+        "tr": "Bugün “book” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “book” in a sentence?",
+        "tr": "“book” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?book"
+  },
+  {
+    "id": "d2f2f61c-79da-42b4-ae4e-d173236ccb4e",
+    "en": "work",
+    "tr": "çalışmak",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “work”.",
+        "tr": "Bugün “work” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “work” in a sentence?",
+        "tr": "“work” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?work"
+  },
+  {
+    "id": "5ee71270-e8d4-40a7-b7ff-8625a5de720c",
+    "en": "happy",
+    "tr": "mutlu",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “happy”.",
+        "tr": "Bugün “happy” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “happy” in a sentence?",
+        "tr": "“happy” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?happy"
+  },
+  {
+    "id": "9c37fd2a-e524-48c7-a66c-79691cf52f7b",
+    "en": "sad",
+    "tr": "üzgün",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “sad”.",
+        "tr": "Bugün “sad” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “sad” in a sentence?",
+        "tr": "“sad” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?sad"
+  },
+  {
+    "id": "9020f6bf-47b8-45eb-a9f8-3509eca75997",
+    "en": "big",
+    "tr": "büyük",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “big”.",
+        "tr": "Bugün “big” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “big” in a sentence?",
+        "tr": "“big” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?big"
+  },
+  {
+    "id": "fec95a0f-40cf-4b5f-ad9c-cbf48aec371a",
+    "en": "small",
+    "tr": "küçük",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “small”.",
+        "tr": "Bugün “small” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “small” in a sentence?",
+        "tr": "“small” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?small"
+  },
+  {
+    "id": "e3783895-49f9-4852-a004-41d296cdc09f",
+    "en": "morning",
+    "tr": "sabah",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “morning”.",
+        "tr": "Bugün “morning” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “morning” in a sentence?",
+        "tr": "“morning” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?morning"
+  },
+  {
+    "id": "5376969d-9368-4d6f-89a5-16c99d2ee23e",
+    "en": "night",
+    "tr": "gece",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “night”.",
+        "tr": "Bugün “night” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “night” in a sentence?",
+        "tr": "“night” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?night"
+  },
+  {
+    "id": "13d55b62-7eb1-4f14-9dd3-8c8531b6e3a1",
+    "en": "today",
+    "tr": "bugün",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “today”.",
+        "tr": "Bugün “today” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “today” in a sentence?",
+        "tr": "“today” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?today"
+  },
+  {
+    "id": "a18e9cde-5686-4250-91dc-b69b3edbc288",
+    "en": "tomorrow",
+    "tr": "yarın",
+    "level": "A1",
+    "examples": [
+      {
+        "en": "Today I learned the word “tomorrow”.",
+        "tr": "Bugün “tomorrow” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “tomorrow” in a sentence?",
+        "tr": "“tomorrow” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?tomorrow"
+  },
+  {
+    "id": "6c2d4600-8637-4926-9758-980f5e515ea6",
+    "en": "travel",
+    "tr": "seyahat etmek",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “travel”.",
+        "tr": "Bugün “travel” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “travel” in a sentence?",
+        "tr": "“travel” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?travel"
+  },
+  {
+    "id": "8ca9e9f3-e18a-49b3-9877-e48f28307de2",
+    "en": "holiday",
+    "tr": "tatil",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “holiday”.",
+        "tr": "Bugün “holiday” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “holiday” in a sentence?",
+        "tr": "“holiday” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?holiday"
+  },
+  {
+    "id": "a802d9aa-4395-4cd2-becd-dad7eefb70e9",
+    "en": "ticket",
+    "tr": "bilet",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “ticket”.",
+        "tr": "Bugün “ticket” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “ticket” in a sentence?",
+        "tr": "“ticket” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?ticket"
+  },
+  {
+    "id": "200aa34e-bc0a-4d9c-a3d0-14a3f75bda9a",
+    "en": "airport",
+    "tr": "havaalanı",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “airport”.",
+        "tr": "Bugün “airport” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “airport” in a sentence?",
+        "tr": "“airport” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?airport"
+  },
+  {
+    "id": "babc03d3-8f5e-43b9-a10c-885c1ccd1e09",
+    "en": "restaurant",
+    "tr": "restoran",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “restaurant”.",
+        "tr": "Bugün “restaurant” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “restaurant” in a sentence?",
+        "tr": "“restaurant” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?restaurant"
+  },
+  {
+    "id": "86ec4473-53a6-4ffa-baed-ab616067eb52",
+    "en": "weather",
+    "tr": "hava durumu",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “weather”.",
+        "tr": "Bugün “weather” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “weather” in a sentence?",
+        "tr": "“weather” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?weather"
+  },
+  {
+    "id": "f3860bb4-e5cd-49b3-97f6-2b6a652133c9",
+    "en": "healthy",
+    "tr": "sağlıklı",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “healthy”.",
+        "tr": "Bugün “healthy” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “healthy” in a sentence?",
+        "tr": "“healthy” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?healthy"
+  },
+  {
+    "id": "768b22a8-4231-4c07-9fc8-26e590165b1b",
+    "en": "careful",
+    "tr": "dikkatli",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “careful”.",
+        "tr": "Bugün “careful” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “careful” in a sentence?",
+        "tr": "“careful” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?careful"
+  },
+  {
+    "id": "f580fa7a-199b-4461-8519-ac9000f25cf9",
+    "en": "usually",
+    "tr": "genellikle",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “usually”.",
+        "tr": "Bugün “usually” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “usually” in a sentence?",
+        "tr": "“usually” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?usually"
+  },
+  {
+    "id": "c7a4e90e-df08-46b3-8603-d7a1bfd26280",
+    "en": "sometimes",
+    "tr": "bazen",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “sometimes”.",
+        "tr": "Bugün “sometimes” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “sometimes” in a sentence?",
+        "tr": "“sometimes” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?sometimes"
+  },
+  {
+    "id": "7bf2d886-5cf8-48a1-a9da-bd6a1f4e2eb1",
+    "en": "early",
+    "tr": "erken",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “early”.",
+        "tr": "Bugün “early” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “early” in a sentence?",
+        "tr": "“early” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?early"
+  },
+  {
+    "id": "082661b8-6517-4376-b796-febc488e07e5",
+    "en": "late",
+    "tr": "geç",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “late”.",
+        "tr": "Bugün “late” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “late” in a sentence?",
+        "tr": "“late” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?late"
+  },
+  {
+    "id": "34f0db1c-53f0-4827-be64-ae68bb2050e9",
+    "en": "expensive",
+    "tr": "pahalı",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “expensive”.",
+        "tr": "Bugün “expensive” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “expensive” in a sentence?",
+        "tr": "“expensive” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?expensive"
+  },
+  {
+    "id": "7367ddd6-d941-493c-9916-17f516e0ac22",
+    "en": "cheap",
+    "tr": "ucuz",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “cheap”.",
+        "tr": "Bugün “cheap” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “cheap” in a sentence?",
+        "tr": "“cheap” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?cheap"
+  },
+  {
+    "id": "887891ad-6e74-436d-9eac-cd505a208497",
+    "en": "quiet",
+    "tr": "sessiz",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “quiet”.",
+        "tr": "Bugün “quiet” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “quiet” in a sentence?",
+        "tr": "“quiet” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?quiet"
+  },
+  {
+    "id": "fad2c303-92f4-4f5e-91fc-1e00933a9974",
+    "en": "noisy",
+    "tr": "gürültülü",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “noisy”.",
+        "tr": "Bugün “noisy” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “noisy” in a sentence?",
+        "tr": "“noisy” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?noisy"
+  },
+  {
+    "id": "8a70b6c9-427b-48f6-b94d-6ce96b224959",
+    "en": "decide",
+    "tr": "karar vermek",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “decide”.",
+        "tr": "Bugün “decide” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “decide” in a sentence?",
+        "tr": "“decide” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?decide"
+  },
+  {
+    "id": "bc9a3075-37c7-47be-b603-e4c43af93f5b",
+    "en": "invite",
+    "tr": "davet etmek",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “invite”.",
+        "tr": "Bugün “invite” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “invite” in a sentence?",
+        "tr": "“invite” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?invite"
+  },
+  {
+    "id": "1ec9d751-8261-4fcf-84d0-bdfd7e3f5e14",
+    "en": "remember",
+    "tr": "hatırlamak",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “remember”.",
+        "tr": "Bugün “remember” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “remember” in a sentence?",
+        "tr": "“remember” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?remember"
+  },
+  {
+    "id": "c04f1a50-03c3-4442-a1ae-04e170a30c77",
+    "en": "forget",
+    "tr": "unutmak",
+    "level": "A2",
+    "examples": [
+      {
+        "en": "Today I learned the word “forget”.",
+        "tr": "Bugün “forget” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “forget” in a sentence?",
+        "tr": "“forget” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?forget"
+  },
+  {
+    "id": "b9b26d13-1e2a-4b09-bf33-02cb88fc8c0e",
+    "en": "journey",
+    "tr": "yolculuk",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "We enjoyed the journey by train.",
+        "tr": "Trenle yaptığımız yolculuktan keyif aldık."
+      },
+      {
+        "en": "The journey took three hours.",
+        "tr": "Yolculuk üç saat sürdü."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?journey"
+  },
+  {
+    "id": "994dbab1-a599-45b5-93af-187dd9c05dc3",
+    "en": "improve",
+    "tr": "geliştirmek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "I want to improve my English.",
+        "tr": "İngilizcemi geliştirmek istiyorum."
+      },
+      {
+        "en": "Practice can improve your skills.",
+        "tr": "Pratik yapmak becerilerini geliştirebilir."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?improve"
+  },
+  {
+    "id": "d085df25-ab84-4331-901b-42905dce0d2e",
+    "en": "achieve",
+    "tr": "başarmak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "She achieved her goal.",
+        "tr": "Hedefine ulaştı."
+      },
+      {
+        "en": "You can achieve more with practice.",
+        "tr": "Pratikle daha fazlasını başarabilirsin."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?achieve"
+  },
+  {
+    "id": "ea8727f4-1964-4e9e-82bb-374d04da60b8",
+    "en": "experience",
+    "tr": "deneyim",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “experience”.",
+        "tr": "Bugün “experience” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “experience” in a sentence?",
+        "tr": "“experience” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?experience"
+  },
+  {
+    "id": "a7493448-5af9-41c8-bec8-8851153b9b31",
+    "en": "although",
+    "tr": "-e rağmen",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Although it was raining, we went out.",
+        "tr": "Yağmur yağmasına rağmen dışarı çıktık."
+      },
+      {
+        "en": "Although he was tired, he kept working.",
+        "tr": "Yorgun olmasına rağmen çalışmaya devam etti."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?although"
+  },
+  {
+    "id": "0f1e5f3f-8708-4a2f-9ba0-c42c1edbd34f",
+    "en": "increase",
+    "tr": "artırmak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Prices may increase next year.",
+        "tr": "Fiyatlar gelecek yıl artabilir."
+      },
+      {
+        "en": "We need to increase production.",
+        "tr": "Üretimi artırmamız gerekiyor."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?increase"
+  },
+  {
+    "id": "3ea717f6-9d16-4cbf-8661-8c085fd61058",
+    "en": "reduce",
+    "tr": "azaltmak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “reduce”.",
+        "tr": "Bugün “reduce” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “reduce” in a sentence?",
+        "tr": "“reduce” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?reduce"
+  },
+  {
+    "id": "25449c62-d7cf-42ba-9ff2-4c939dd87702",
+    "en": "avoid",
+    "tr": "kaçınmak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “avoid”.",
+        "tr": "Bugün “avoid” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “avoid” in a sentence?",
+        "tr": "“avoid” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?avoid"
+  },
+  {
+    "id": "91745339-e67e-4c6c-adb2-4ade756e74a1",
+    "en": "instead",
+    "tr": "yerine",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “instead”.",
+        "tr": "Bugün “instead” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “instead” in a sentence?",
+        "tr": "“instead” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?instead"
+  },
+  {
+    "id": "e6e3b5d8-b689-4281-8bcf-d6c83b7469d3",
+    "en": "probably",
+    "tr": "muhtemelen",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “probably”.",
+        "tr": "Bugün “probably” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “probably” in a sentence?",
+        "tr": "“probably” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?probably"
+  },
+  {
+    "id": "7933f6c8-1420-4a19-91a8-1ac292aadda5",
+    "en": "environment",
+    "tr": "çevre",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “environment”.",
+        "tr": "Bugün “environment” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “environment” in a sentence?",
+        "tr": "“environment” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?environment"
+  },
+  {
+    "id": "0f9070e6-8c06-43b9-8e05-3a7c958524a9",
+    "en": "opportunity",
+    "tr": "fırsat",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “opportunity”.",
+        "tr": "Bugün “opportunity” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “opportunity” in a sentence?",
+        "tr": "“opportunity” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?opportunity"
+  },
+  {
+    "id": "a815be95-68a0-4e18-9ba1-3faf7dbb257c",
+    "en": "solution",
+    "tr": "çözüm",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “solution”.",
+        "tr": "Bugün “solution” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “solution” in a sentence?",
+        "tr": "“solution” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?solution"
+  },
+  {
+    "id": "34b259d7-9c37-4ae5-bb76-0f2dfa1cd895",
+    "en": "suggest",
+    "tr": "önermek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “suggest”.",
+        "tr": "Bugün “suggest” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “suggest” in a sentence?",
+        "tr": "“suggest” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?suggest"
+  },
+  {
+    "id": "f6076d8d-078a-4d24-b301-59c928603fee",
+    "en": "consider",
+    "tr": "düşünmek/değerlendirmek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “consider”.",
+        "tr": "Bugün “consider” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “consider” in a sentence?",
+        "tr": "“consider” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?consider"
+  },
+  {
+    "id": "67baaf7f-3628-462a-a2c2-63aa171569a3",
+    "en": "provide",
+    "tr": "sağlamak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “provide”.",
+        "tr": "Bugün “provide” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “provide” in a sentence?",
+        "tr": "“provide” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?provide"
+  },
+  {
+    "id": "39fdcf23-3122-42a7-8f70-5f00266d8935",
+    "en": "manage",
+    "tr": "başarmak/yönetmek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “manage”.",
+        "tr": "Bugün “manage” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “manage” in a sentence?",
+        "tr": "“manage” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?manage"
+  },
+  {
+    "id": "52fda0d9-bb86-41ee-a743-6f9c8ef9efc2",
+    "en": "depend",
+    "tr": "bağlı olmak",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “depend”.",
+        "tr": "Bugün “depend” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “depend” in a sentence?",
+        "tr": "“depend” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?depend"
+  },
+  {
+    "id": "eadd03c0-f562-4a42-93ed-51947407f0bf",
+    "en": "imagine",
+    "tr": "hayal etmek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “imagine”.",
+        "tr": "Bugün “imagine” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “imagine” in a sentence?",
+        "tr": "“imagine” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?imagine"
+  },
+  {
+    "id": "40021412-e023-4cd8-8b6c-98b8b581aec1",
+    "en": "prefer",
+    "tr": "tercih etmek",
+    "level": "B1",
+    "examples": [
+      {
+        "en": "Today I learned the word “prefer”.",
+        "tr": "Bugün “prefer” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “prefer” in a sentence?",
+        "tr": "“prefer” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?prefer"
+  },
+  {
+    "id": "8abbe3db-e726-42b6-90c0-eec8c4ec9585",
+    "en": "significant",
+    "tr": "önemli/kayda değer",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “significant”.",
+        "tr": "Bugün “significant” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “significant” in a sentence?",
+        "tr": "“significant” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?significant"
+  },
+  {
+    "id": "a222006c-ec98-4930-8b51-52e00ac331e0",
+    "en": "maintain",
+    "tr": "sürdürmek",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “maintain”.",
+        "tr": "Bugün “maintain” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “maintain” in a sentence?",
+        "tr": "“maintain” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?maintain"
+  },
+  {
+    "id": "8a389ba9-12bf-4395-8a23-5c70b3a15796",
+    "en": "require",
+    "tr": "gerektirmek",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “require”.",
+        "tr": "Bugün “require” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “require” in a sentence?",
+        "tr": "“require” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?require"
+  },
+  {
+    "id": "73dbdb6f-665b-4bf0-b06e-b25e641745f1",
+    "en": "establish",
+    "tr": "kurmak",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “establish”.",
+        "tr": "Bugün “establish” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “establish” in a sentence?",
+        "tr": "“establish” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?establish"
+  },
+  {
+    "id": "10f97d39-e94f-4bd1-b5d0-0990444a2fd6",
+    "en": "approach",
+    "tr": "yaklaşım",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “approach”.",
+        "tr": "Bugün “approach” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “approach” in a sentence?",
+        "tr": "“approach” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?approach"
+  },
+  {
+    "id": "3dff565d-0fcf-425b-95ca-9c823bc49129",
+    "en": "evidence",
+    "tr": "kanıt",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “evidence”.",
+        "tr": "Bugün “evidence” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “evidence” in a sentence?",
+        "tr": "“evidence” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?evidence"
+  },
+  {
+    "id": "b1b40401-fbb8-4b37-813b-ea6da7b52257",
+    "en": "benefit",
+    "tr": "fayda",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “benefit”.",
+        "tr": "Bugün “benefit” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “benefit” in a sentence?",
+        "tr": "“benefit” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?benefit"
+  },
+  {
+    "id": "1d9a156d-27d2-4d18-b3b2-7c6ca8ee8eef",
+    "en": "challenge",
+    "tr": "zorluk",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “challenge”.",
+        "tr": "Bugün “challenge” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “challenge” in a sentence?",
+        "tr": "“challenge” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?challenge"
+  },
+  {
+    "id": "eacbe63f-fa94-4746-91e1-2347ed88eb90",
+    "en": "complex",
+    "tr": "karmaşık",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “complex”.",
+        "tr": "Bugün “complex” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “complex” in a sentence?",
+        "tr": "“complex” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?complex"
+  },
+  {
+    "id": "915805ab-83aa-421b-bce1-b3a96628a149",
+    "en": "efficient",
+    "tr": "verimli",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “efficient”.",
+        "tr": "Bugün “efficient” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “efficient” in a sentence?",
+        "tr": "“efficient” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?efficient"
+  },
+  {
+    "id": "44fa1a5f-44ad-4e51-8f53-ffb65dddbb5f",
+    "en": "reliable",
+    "tr": "güvenilir",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "This source is reliable.",
+        "tr": "Bu kaynak güvenilirdir."
+      },
+      {
+        "en": "We need a reliable solution.",
+        "tr": "Güvenilir bir çözüme ihtiyacımız var."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?reliable"
+  },
+  {
+    "id": "e66473e4-4f6b-4635-a0a9-7885cd7b92be",
+    "en": "awareness",
+    "tr": "farkındalık",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “awareness”.",
+        "tr": "Bugün “awareness” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “awareness” in a sentence?",
+        "tr": "“awareness” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?awareness"
+  },
+  {
+    "id": "28cfd249-bbbc-4e2f-955d-beb46f90c998",
+    "en": "consequence",
+    "tr": "sonuç",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “consequence”.",
+        "tr": "Bugün “consequence” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “consequence” in a sentence?",
+        "tr": "“consequence” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?consequence"
+  },
+  {
+    "id": "e7f4b4c6-c4bf-40f0-b394-8cc523c44bbf",
+    "en": "assume",
+    "tr": "varsaymak",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “assume”.",
+        "tr": "Bugün “assume” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “assume” in a sentence?",
+        "tr": "“assume” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?assume"
+  },
+  {
+    "id": "b92da850-35c8-4492-a36d-cb6cb7d0e592",
+    "en": "evaluate",
+    "tr": "değerlendirmek",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “evaluate”.",
+        "tr": "Bugün “evaluate” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “evaluate” in a sentence?",
+        "tr": "“evaluate” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?evaluate"
+  },
+  {
+    "id": "2d3cbda9-3c83-4ec5-a4c5-0f0d6ff71a2d",
+    "en": "determine",
+    "tr": "belirlemek",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “determine”.",
+        "tr": "Bugün “determine” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “determine” in a sentence?",
+        "tr": "“determine” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?determine"
+  },
+  {
+    "id": "35168e08-7717-48de-8bac-48a4383c96d1",
+    "en": "impact",
+    "tr": "etki",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “impact”.",
+        "tr": "Bugün “impact” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “impact” in a sentence?",
+        "tr": "“impact” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?impact"
+  },
+  {
+    "id": "fdfa3120-9959-453f-8f89-ec0832356bfa",
+    "en": "perspective",
+    "tr": "bakış açısı",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “perspective”.",
+        "tr": "Bugün “perspective” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “perspective” in a sentence?",
+        "tr": "“perspective” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?perspective"
+  },
+  {
+    "id": "25909353-9b58-48fa-a639-b8e6305e9e68",
+    "en": "relevant",
+    "tr": "ilgili",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “relevant”.",
+        "tr": "Bugün “relevant” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “relevant” in a sentence?",
+        "tr": "“relevant” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?relevant"
+  },
+  {
+    "id": "48f54bbd-b217-4d00-aedb-e47e8b4da55f",
+    "en": "sufficient",
+    "tr": "yeterli",
+    "level": "B2",
+    "examples": [
+      {
+        "en": "Today I learned the word “sufficient”.",
+        "tr": "Bugün “sufficient” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “sufficient” in a sentence?",
+        "tr": "“sufficient” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?sufficient"
+  },
+  {
+    "id": "0e1248c9-d6e2-4841-a393-afe286626c10",
+    "en": "comprehensive",
+    "tr": "kapsamlı",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "The report gives a comprehensive overview.",
+        "tr": "Rapor kapsamlı bir genel bakış sunuyor."
+      },
+      {
+        "en": "We need a comprehensive plan.",
+        "tr": "Kapsamlı bir plana ihtiyacımız var."
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?comprehensive"
+  },
+  {
+    "id": "63510fa2-5262-4441-baf6-80c544f458e9",
+    "en": "inevitable",
+    "tr": "kaçınılmaz",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “inevitable”.",
+        "tr": "Bugün “inevitable” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “inevitable” in a sentence?",
+        "tr": "“inevitable” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?inevitable"
+  },
+  {
+    "id": "c3569aaa-c4f1-45bd-ba71-3b1099857514",
+    "en": "substantial",
+    "tr": "önemli/büyük ölçüde",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “substantial”.",
+        "tr": "Bugün “substantial” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “substantial” in a sentence?",
+        "tr": "“substantial” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?substantial"
+  },
+  {
+    "id": "d0ef5362-1bce-4607-816f-2ea0e46332cd",
+    "en": "coherent",
+    "tr": "tutarlı",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “coherent”.",
+        "tr": "Bugün “coherent” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “coherent” in a sentence?",
+        "tr": "“coherent” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?coherent"
+  },
+  {
+    "id": "bd0f4c59-4b83-41bb-99ac-b8ff85e00f5a",
+    "en": "ambiguous",
+    "tr": "belirsiz/çift anlamlı",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “ambiguous”.",
+        "tr": "Bugün “ambiguous” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “ambiguous” in a sentence?",
+        "tr": "“ambiguous” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?ambiguous"
+  },
+  {
+    "id": "521a12a5-b528-4660-8f83-7763f92140c6",
+    "en": "compelling",
+    "tr": "ikna edici",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “compelling”.",
+        "tr": "Bugün “compelling” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “compelling” in a sentence?",
+        "tr": "“compelling” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?compelling"
+  },
+  {
+    "id": "6a704b93-53fd-455b-b207-b14537b76459",
+    "en": "controversial",
+    "tr": "tartışmalı",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “controversial”.",
+        "tr": "Bugün “controversial” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “controversial” in a sentence?",
+        "tr": "“controversial” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?controversial"
+  },
+  {
+    "id": "34d4ca70-4d56-4d5e-94b7-115a529cf7bf",
+    "en": "deteriorate",
+    "tr": "kötüleşmek",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “deteriorate”.",
+        "tr": "Bugün “deteriorate” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “deteriorate” in a sentence?",
+        "tr": "“deteriorate” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?deteriorate"
+  },
+  {
+    "id": "37c9d894-325e-407b-bbbb-845eacf2904f",
+    "en": "enhance",
+    "tr": "geliştirmek/artırmak",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “enhance”.",
+        "tr": "Bugün “enhance” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “enhance” in a sentence?",
+        "tr": "“enhance” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?enhance"
+  },
+  {
+    "id": "6d463a0a-77ea-4347-9c1e-a15af01bb866",
+    "en": "facilitate",
+    "tr": "kolaylaştırmak",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “facilitate”.",
+        "tr": "Bugün “facilitate” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “facilitate” in a sentence?",
+        "tr": "“facilitate” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?facilitate"
+  },
+  {
+    "id": "ae1884b5-8c35-4257-8691-64fcafebd2d7",
+    "en": "implement",
+    "tr": "uygulamak",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “implement”.",
+        "tr": "Bugün “implement” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “implement” in a sentence?",
+        "tr": "“implement” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?implement"
+  },
+  {
+    "id": "3bbfc339-a886-4ea0-aa63-a92c61da67f3",
+    "en": "inherent",
+    "tr": "doğasında bulunan",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “inherent”.",
+        "tr": "Bugün “inherent” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “inherent” in a sentence?",
+        "tr": "“inherent” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?inherent"
+  },
+  {
+    "id": "2e2af604-0f09-4162-9e04-343884ce6932",
+    "en": "notion",
+    "tr": "kavram",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “notion”.",
+        "tr": "Bugün “notion” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “notion” in a sentence?",
+        "tr": "“notion” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?notion"
+  },
+  {
+    "id": "058aa253-be47-4111-b5bd-d933332d71c0",
+    "en": "prevalent",
+    "tr": "yaygın",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “prevalent”.",
+        "tr": "Bugün “prevalent” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “prevalent” in a sentence?",
+        "tr": "“prevalent” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?prevalent"
+  },
+  {
+    "id": "2f8e5988-2ac2-4f29-bb85-56e33342dd47",
+    "en": "reluctant",
+    "tr": "isteksiz",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “reluctant”.",
+        "tr": "Bugün “reluctant” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “reluctant” in a sentence?",
+        "tr": "“reluctant” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?reluctant"
+  },
+  {
+    "id": "adeeb36e-b7cd-4267-b69c-60ab53c648b7",
+    "en": "retain",
+    "tr": "muhafaza etmek",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “retain”.",
+        "tr": "Bugün “retain” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “retain” in a sentence?",
+        "tr": "“retain” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?retain"
+  },
+  {
+    "id": "1d59f99a-c152-4526-b27b-c8604634cd33",
+    "en": "subsequent",
+    "tr": "sonraki",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “subsequent”.",
+        "tr": "Bugün “subsequent” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “subsequent” in a sentence?",
+        "tr": "“subsequent” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?subsequent"
+  },
+  {
+    "id": "2be49bb0-6697-4d30-b1bf-9e5ed51d008b",
+    "en": "undergo",
+    "tr": "maruz kalmak/geçirmek",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “undergo”.",
+        "tr": "Bugün “undergo” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “undergo” in a sentence?",
+        "tr": "“undergo” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?undergo"
+  },
+  {
+    "id": "f9586edc-607e-45ea-be4d-827d888d360a",
+    "en": "viable",
+    "tr": "uygulanabilir",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “viable”.",
+        "tr": "Bugün “viable” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “viable” in a sentence?",
+        "tr": "“viable” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?viable"
+  },
+  {
+    "id": "ff402c47-40c8-4797-a61e-c23457d4ada1",
+    "en": "whereas",
+    "tr": "oysa/halbuki",
+    "level": "C1",
+    "examples": [
+      {
+        "en": "Today I learned the word “whereas”.",
+        "tr": "Bugün “whereas” kelimesini öğrendim."
+      },
+      {
+        "en": "Can you use “whereas” in a sentence?",
+        "tr": "“whereas” kelimesini bir cümlede kullanabilir misin?"
+      }
+    ],
+    "image": "https://source.unsplash.com/featured/600x400/?whereas"
+  }
+]
